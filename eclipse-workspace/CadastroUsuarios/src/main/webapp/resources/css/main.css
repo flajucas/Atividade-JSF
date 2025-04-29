@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.formulario {
+    margin: 50px auto;
+    padding: 20px;
+    width: 400px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.rotulo {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333434;
+}
+
+.campo-texto {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.botao {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #45a049;
+}
+
+.nome-lista {
+    font-size: 18px;
+    color: #555;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Atividade2</title>
+<h:outputStylesheet library="_css" name="main.css" />
+</h:head>
+<h:body>
+	<h:form styleClass="container-form">
+		<h:panelGrid colummns= "2" cellpadding="5">
+			<h:outputLabel for="nome" value="Nome:" styleClass="rotulo"/>
+			<h:inputText id="nome" value="#{h.nome}" styleClass="campo-texto" />
+			
+			<h:outputLabel for="sobrenome" value="Sobrenome:" styleClass="rotulo"/>
+			<h:inputText id="sobrenome" value="#{h.sobrenome}" styleClass="campo-texto" />
+			
+			<h:outputLabel for="telefone" value="Telefone:" styleClass="rotulo"/>
+            <h:inputText id="telefone" value="#{h.telefone}" styleClass="campo-texto" />
+
+            <h:outputLabel for="email" value="E-mail:" styleClass="rotulo"/>
+            <h:inputText id="email" value="#{h.email}" styleClass="campo-texto" />
+		
+		</h:panelGrid>
+		<h:commandButton value="Enviar" action="#{h.enviar}" styleClass="botao-primario" />
+	</h:form>
+</h:body>
+</html>
